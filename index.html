@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,13 +11,16 @@
     <div><h1>TO-DO LIST</h1></div>
     <div class="containerInput">
       <div>
-        <h3>Adicione aqui sua tarefa a ser cumprida:</h3>
-        <input type="text" name="NewTask" id="newTask" />
+        <input id="inputTarefa" type="text" placeholder="Digite Sua Tarefa" />
       </div>
-      <input type="submit" value="ENVIAR" />
+      <button onclick="addTarefa()" id="btn-add" class="add">ENVIAR</button>
     </div>
 
-    
+    <main id="areaLista">
+
+    </main>
+
+
     <script src="index.js"></script>
   </body>
 </html>
